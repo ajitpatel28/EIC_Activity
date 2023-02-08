@@ -1,0 +1,24 @@
+<html>
+
+<head><title>Results Calculator</title></head>
+
+<body>
+    <h3>Enter the details of both teams:</h3>
+    <br /><div><label for="team1Name">Team 1 Name:</label>
+            <input type="text" id="team1Name" />
+             <br>
+             <br>
+             <label for="team1Score">Team 1 Score:</label><input type="text" id="team1Score" />
+             <br><br> 
+            </div>
+            <div>
+                <label for="team2Name">Team 2 Name:</label>
+                <input type="text" id="team2Name" /><br> <br>
+                <label for="team2Score">Team 2 Score:</label>
+                 <input type="text" id="team2Score" /> <br>
+        <br></div>
+         <button onclick="analyzeResults()">Analyze Results</button><br><br>
+         <div id="result"></div>
+    <script src ="server.js"></script>
+</body>
+</html>
